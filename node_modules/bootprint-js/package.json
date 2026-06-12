@@ -1,0 +1,27 @@
+{
+    "name": "bootprint-js",
+    "version": "1.0.1",
+    "description": "Explore the universe with facts and images using the Bootprint API.",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bootprint-space/bootprint-js.git"
+    },
+    "keywords": [
+        "space",
+        "api",
+        "bootprint",
+        "bootprint-api"
+    ],
+    "author": "Ben Forster",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bootprint-space/bootprint-js/issues"
+    },
+    "homepage": "https://bootprint.space/",
+    "types": "./index.d.ts"
+}
