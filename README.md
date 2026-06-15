@@ -27,5 +27,11 @@ To function properly, this app requires the following scopes configured in the S
 * `app_mentions:read` — Allows the bot to see and respond to direct mentions (like `@CalcuGoal`).
 * `channels:history` — Allows the bot to view messages and content in public channels it has been added to.
 
+## Bot in Action
+
+<img width="823" height="323" alt="Screenshot 2026-06-11 165623" src="https://github.com/user-attachments/assets/6ffc6ef7-3843-4cd2-b528-ae7ff7aa8103" />
+<img width="1008" height="532" alt="image" src="https://github.com/user-attachments/assets/ea8f9cef-6f6a-4c42-a74d-202807618078" />
+
+
 ### App-Level Scopes
 * `connections:write` — Required to enable **Socket Mode** so the bot can safely communicate with Slack via WebSockets 24/7 on Nest.
