@@ -16,3 +16,16 @@ Planets and Space Stuff List: Earth, Venus, Moon, Uranus, Sun, Mercury , Saturn,
 /dsb-space-img: returns a random image of the planet
 
 /dsb-space-fact: returns an random fact about the planet.
+
+## Required Permissions & Scopes
+
+To function properly, this app requires the following scopes configured in the Slack Developer Dashboard under **OAuth & Permissions**:
+
+### Bot Token Scopes
+* `commands` — Allows the bot to add and listen to custom slash commands (like `/dsb-space-img`).
+* `chat:write` — Allows the bot to send space images and post responses back into your channels.
+* `app_mentions:read` — Allows the bot to see and respond to direct mentions (like `@CalcuGoal`).
+* `channels:history` — Allows the bot to view messages and content in public channels it has been added to.
+
+### App-Level Scopes
+* `connections:write` — Required to enable **Socket Mode** so the bot can safely communicate with Slack via WebSockets 24/7 on Nest.
